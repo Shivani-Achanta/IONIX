@@ -1,0 +1,305 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+    background-color: black;
+    color: white;
+}
+
+
+.white-section{
+    background-color: white;
+}
+
+/* Headings */
+.big-heading {
+
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 4% 10% 0%;
+    text-align: left;
+}
+/* Navigation bar */
+
+.navbar {
+    margin: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+#dsatm{
+    width: 100px; 
+    height: 92px; 
+    padding-right: 4%;
+}
+
+#eee{
+    max-width: 89px; 
+    height: auto; 
+    padding-right: 4px;  
+    pointer-events: none;
+}
+
+/* Title margin */
+.custom-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 3% 3% 0% 0;
+}
+
+/* Glow */
+.glow {
+    animation: glow 1.5s ease-in-out infinite alternate;
+    background-color: #501c5f; /* Set button fill color to purple */
+    color: white; /* Set font color to black */
+    border-color: black !important; /* Set button outline color to black */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(245, 169, 255, 0.884);
+    }
+    100% {
+        box-shadow: 0 0 0 15px rgba(153, 102, 255, 0);
+    }
+}
+
+
+/* Title image */
+.title-img {
+    margin-top: 4%;
+    width: 37%;
+    position: absolute;
+    right: 8%;
+}
+
+/* Features */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #FF4C68;
+}
+
+p {
+    color: #000000;
+}
+
+/* Timer */
+.timer {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 0.8em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+/* About Us */
+.carousel-item p{
+    color: white; 
+    font-size: xx-large; 
+    padding: 10% 15% 5% 15%;
+  }
+
+  .about-us-heading {
+    font-size: 4rem;
+    padding-top: 5%;
+    margin-bottom: -10%;
+  }
+
+/* Roadmap */
+
+#roadmap {
+    background-color: #501c5f;
+}
+
+
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans&display=swap");
+
+.rightbox {
+  padding: 0em 34rem 0em 0em;
+  height: 100%;
+}
+
+.rb-container {
+  font-family: "PT Sans", sans-serif;
+  width: 50%;
+  margin: auto;
+  display: block;
+  position: relative;
+}
+
+.rb-container ul.rb {
+  margin: 2.5em 0;
+  padding: 0;
+  display: inline-block;
+}
+
+.rb-container ul.rb li {
+  list-style: none;
+  margin: auto;
+  margin-left: 10em;
+  min-height: 50px;
+  border-left: 1px dashed #fff;
+  padding: 0 0 50px 30px;
+  position: relative;
+}
+
+.rb-container ul.rb li:last-child {
+  border-left: 0;
+}
+
+.rb-container ul.rb li::before {
+  position: absolute;
+  left: -18px;
+  top: -5px;
+  content: " ";
+  border: 8px solid rgba(255, 255, 255, 1);
+  border-radius: 500%;
+  background: #50d890;
+  height: 20px;
+  width: 20px;
+  transition: all 500ms ease-in-out;
+}
+
+.rb-container ul.rb li:hover::before {
+  border-color: #232931;
+  transition: all 1000ms ease-in-out;
+}
+
+ul.rb li .timestamp {
+  color: #50d890;
+  position: relative;
+  width: 100px;
+  font-size: 12px;
+}
+
+.item-title {
+  color: #fff;
+}
+
+input::placeholder {
+  padding: 5em 5em 1em 1em;
+  color: #50d890;
+}
+
+/* Press */
+
+#press {
+    padding-bottom: 3%;
+    background-color: #080a02;
+}
+
+.press-logo {
+    width: 25%;
+    margin: 55px 20px 40px;
+}
+
+/* Call to action */
+
+#cta {
+    text-align: center;
+}
+
+/* Footer */
+.foo {
+    margin: 20px 10px;
+    width: 70px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        width: 70%;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .navbar-brand{
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
