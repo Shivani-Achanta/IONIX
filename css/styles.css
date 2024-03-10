@@ -117,14 +117,26 @@ h1,h2,h3,h4,h5,h6 {
 
 #features {
     position: relative;
+    padding: 100px;
 }
 
 .feature-title {
     font-size: 1.5rem;
 }
 
+.feature-title a {
+    color: #000000;
+    font-size: larger;
+}
+
 .feature-box {
     padding: 4.5%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+    color: #501c5f; 
+    border-radius: 35px;
+    font-size: 1.5rem;
 }
 
 .icon {
@@ -142,14 +154,15 @@ p {
 
 /* Timer */
 .timer {
-    color: #333;
+    color: #501c5f;
     margin: 0 auto;
     text-align: center;
+    box-shadow: 4px 4px 25px 6px;
   }
 
   li {
     display: inline-block;
-    font-size: 0.8em;
+    font-size: 1.5em;
     list-style-type: none;
     padding: 1em;
     text-transform: uppercase;
@@ -157,7 +170,8 @@ p {
   
   li span {
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
+    margin-top: -150px;
   }
 
 /* About Us */
@@ -247,6 +261,10 @@ ul.rb li .timestamp {
 input::placeholder {
   padding: 5em 5em 1em 1em;
   color: #50d890;
+}
+
+.rb-container {
+    margin-right: 100px;
 }
 
 /* Press */
