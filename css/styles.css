@@ -1,0 +1,240 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Kanit', sans-serif;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
+    background-color: black;
+    color: white;
+}
+
+
+.white-section{
+    background-color: white;
+}
+
+/* Headings */
+.big-heading {
+
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Title Section */
+
+#title .container-fluid{
+    padding: 4% 10% 0%;
+    text-align: left;
+}
+/* Navigation bar */
+
+.navbar {
+    margin: 0 0 4.5rem 0;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+/* Title margin */
+.custom-margin {
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 5%;
+}
+
+/* Download Buttons */
+
+.download-button {
+    margin: 3% 3% 0% 0;
+}
+
+/* Glow */
+.glow {
+    animation: glow 1.5s ease-in-out infinite alternate;
+    background-color: #501c5f; /* Set button fill color to purple */
+    color: white; /* Set font color to black */
+    border-color: black !important; /* Set button outline color to black */
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 0 0 rgba(245, 169, 255, 0.884);
+    }
+    100% {
+        box-shadow: 0 0 0 15px rgba(153, 102, 255, 0);
+    }
+}
+
+
+/* Title image */
+.title-img {
+    margin-top: 4%;
+    width: 37%;
+    position: absolute;
+    right: 8%;
+}
+
+/* Features */
+
+#features {
+    position: relative;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-box {
+    padding: 4.5%;
+}
+
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #FF4C68;
+}
+
+p {
+    color: #000000;
+}
+
+/* Timer */
+.timer {
+    color: #333;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    font-size: 0.8em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 1.5rem;
+  }
+
+/* Testimonial */
+
+#testimonials {
+    background-color: #501c5f;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press */
+
+#press {
+    padding-bottom: 3%;
+    background-color: #080a02;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* Pricing */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.price-heading {
+    font-size: 3rem;
+    line-height: 1.5
+}
+
+/* Call to action */
+
+#cta {
+    text-align: center;
+}
+
+/* Footer */
+.foo {
+    margin: 20px 10px;
+    width: 70px;
+}
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+
+    .title-img {
+        width: 70%;
+        position: static;
+        transform: rotate(0deg);
+    }
+
+    .navbar-brand{
+        max-width: 100%; 
+        height: auto;
+    }
+}
+
+@media all and (max-width: 768px) {
+    h1 {
+      font-size: calc(1.5rem * var(--smaller));
+    }
+    
+    li {
+      font-size: calc(1.125rem * var(--smaller));
+    }
+    
+    li span {
+      font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+
+  /* Add navbar-brand media query
+  Add padding to timeline
+  Make the horizontal timeline vertical on phone screen 
+  Add Naatecrats logo and separate the three pictures equally*/
