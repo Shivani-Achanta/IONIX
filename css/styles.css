@@ -1,3 +1,7 @@
+html, body {
+    overflow-x: hidden;
+  }
+
 body {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -118,13 +122,14 @@ h1,h2,h3,h4,h5,h6 {
 #features {
     position: relative;
     padding: 100px;
+    padding-top: 50px;
 }
 
 .feature-title {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
 }
 
-.feature-title a {
+.feature-box a {
     color: #000000;
     font-size: larger;
 }
@@ -254,6 +259,11 @@ ul.rb li .timestamp {
   font-size: 12px;
 }
 
+.feature-box ul {
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
 .item-title {
   color: #fff;
 }
@@ -275,7 +285,7 @@ input::placeholder {
 }
 
 .press-logo {
-    width: 25%;
+    width: 15%;
     margin: 55px 20px 40px;
 }
 
@@ -315,9 +325,51 @@ input::placeholder {
     
     li {
       font-size: calc(1.125rem * var(--smaller));
+      padding-right: 60px;
     }
     
     li span {
       font-size: calc(3.375rem * var(--smaller));
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .title-img {
+        margin: 0%;
+    }
+
+    .big-heading {
+        font-size: 200%;
+    }
+
+    .feature-box ul {
+        margin-top: 12%;
+        margin-bottom: -6%;
+        font-size: 1.9rem;
+    }
+
+    .about-us-heading {
+        font-size: 3rem;
+    }
+  }
+
+  @media (max-width: 990px) {
+    .title-img {
+        margin-top: -8%;
+    }
+
+    .carousel-item p {
+        font-size: 1.7rem;
+        padding: 10% 10% 2% 10%;
+    }
+
+    .big-heading {
+        font-size: 170%;
+    }
+
+    .feature-box ul {
+        margin-top: 18%;
+        margin-bottom: -10%;
+        font-size: 1.8rem;
     }
   }
