@@ -44,6 +44,8 @@ h1,h2,h3,h4,h5,h6 {
     padding: 4% 10% 0%;
     text-align: left;
 }
+
+
 /* Navigation bar */
 
 .navbar {
@@ -74,8 +76,7 @@ h1,h2,h3,h4,h5,h6 {
 #eee{
     max-width: 89px; 
     height: auto; 
-    padding-right: 4px;  
-    pointer-events: none;
+    padding-right: 4px;
 }
 
 /* Title margin */
@@ -153,7 +154,7 @@ h1,h2,h3,h4,h5,h6 {
     color: #FF4C68;
 }
 
-p {
+#features p {
     color: #000000;
 }
 
@@ -285,8 +286,9 @@ input::placeholder {
 }
 
 .press-logo {
-    width: 15%;
-    margin: 55px 20px 40px;
+    width: 20%;
+    margin: 50px 50px 30px;
+    border-radius: 20px;
 }
 
 /* Call to action */
@@ -331,6 +333,15 @@ input::placeholder {
     li span {
       font-size: calc(3.375rem * var(--smaller));
     }
+    
+    #features .row {
+        margin-left: -15%;
+        width: 130%;
+    }
+
+    #features p{
+        font-size: 1.3rem;
+    }
   }
 
   @media (max-width: 1300px) {
@@ -354,22 +365,81 @@ input::placeholder {
   }
 
   @media (max-width: 990px) {
-    .title-img {
-        margin-top: -8%;
-    }
-
     .carousel-item p {
         font-size: 1.7rem;
         padding: 10% 10% 2% 10%;
     }
 
     .big-heading {
-        font-size: 170%;
+        font-size: 180%;
     }
 
     .feature-box ul {
         margin-top: 18%;
         margin-bottom: -10%;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+    }
+
+    #features  {
+        padding-bottom: 50px;
     }
   }
+
+  @media (max-width: 600px) {
+    .title-img {
+        width: 80%;
+    }
+
+    .big-heading {
+        font-size: 130%;
+    }
+
+    .feature-box ul {
+        margin-top: 17%;
+        margin-bottom: -20%;
+        font-size: 1.5rem;
+    }
+
+    .carousel-item p {
+        font-size: 1.5rem;
+        padding: 10% 10% 2% 10%;
+    }
+}
+
+@media (max-width: 550px) {
+    .rb-container ul.rb li {
+        margin-left: 100%;
+    }
+
+    #features  {
+        padding-bottom: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 440px) {
+    .rb-container ul.rb li {
+        margin-left: 75%;
+    }
+}
+
+@media (max-width: 400px) {
+    .rb-container ul.rb li {
+    margin-left: 65%;
+    }
+}
+
+@media (max-width: 350px) {
+    .rb-container ul.rb li {
+        margin-left: 50%;
+    }
+
+    #features p{
+        font-size: 1.1rem;
+    }
+
+    .feature-title {
+        font-size: 1.5rem;
+    }
+}
