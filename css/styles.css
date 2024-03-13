@@ -44,18 +44,19 @@ h1,h2,h3,h4,h5,h6 {
     padding: 4% 10% 0%;
     text-align: left;
     margin-bottom: -20px;
+    align-items: end;
 }
 
 .extras b{
-    font-size: 200%;
+    font-size: 265%;
 }
 
 .extras i{
-    font-size: 160%;
+    font-size: 230%;
 }
 
 .p {
-    font-size: 120%;
+    font-size: 180%;
     line-height: 0;
     font-style: italic;
     padding-bottom: 15px;
@@ -271,8 +272,9 @@ h1,h2,h3,h4,h5,h6 {
 ul.rb li .timestamp {
   color: #50d890;
   position: relative;
-  width: 100px;
-  font-size: 12px;
+  width: 125px;
+  font-size: 14px;
+
 }
 
 .feature-box ul {
@@ -302,34 +304,50 @@ input::placeholder {
 
 .press-logo {
     width: 17%;
-    margin: 50px 50px 10px;
+    margin: 40px 40px 20px;
     border-radius: 20px;
 }
 
 /* Call to action */
 
-#cta {
-    text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap');
+
+#cta h3 {
+    font-family: "Orbitron", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 190%;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
+
+#cta .big-heading {
+    font-family: 'Anta', cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 280%;
 }
 
 /* Footer */
 .foo {
-    margin: 20px 10px;
+    margin: 25px 10px;
     width: 70px;
+    color: rgb(243, 200, 249);
+}
+
+
+.foo:hover {
+    color: rgb(208, 120, 220);
 }
 
 @media (max-width: 1028px) {
     .navbar {
         padding: 0;
-        height: 70px;
-    }
-
-    .navbar-toggler {
-        margin-top: -15px;
     }
 
     #dsatm {
-        scale: 71%;
+        scale: 83%;
         margin-left: 20px;
         border-radius: 100px;
     }
@@ -404,16 +422,23 @@ input::placeholder {
   }
 
   @media (max-width: 990px) {
-    .navbar {
-        padding: 0;
-        height: 70px;
-    }
-
     #dsatm {
         scale: 71%;
-        margin-top: -10px;
+        margin-top: -6px;
         margin-left: -6px;
         border-radius: 100px;
+    }
+
+    .extras b{
+        font-size: 190%;
+    }
+    
+    .extras i{
+        font-size: 160%;
+    }
+    
+    .p {
+        font-size: 120%;
     }
 
     .carousel-item p {
@@ -439,6 +464,12 @@ input::placeholder {
     #features  {
         padding-bottom: 50px;
     }
+
+    
+.foo {
+    margin: 20px 10px;
+    width: 70px;
+}
   }
 
   @media (max-width: 600px) {
@@ -446,8 +477,12 @@ input::placeholder {
         width: 80%;
     }
 
-    .big-heading {
-        font-size: 130%;
+    #cta .big-heading {
+        font-size: 230%;
+    }
+
+    #cta h3 {
+        font-size: 160%;
     }
 
     .feature-box ul {
@@ -456,15 +491,47 @@ input::placeholder {
         font-size: 1.5rem;
     }
 
+    .about-us-heading {
+        font-size: 2.8rem;
+    }
+
     .carousel-item p {
-        font-size: 1.5rem;
-        padding: 10% 10% 2% 10%;
+        font-size: 1.4rem;
+        padding: 8% 10% 2% 10%;
     }
 
     .extras p {
         margin-bottom: 10px;
     }
 
+    .extras b{
+        font-size: 140%;
+    }
+
+    .extras i{
+        font-size: 130%;
+    }
+    
+    .p{
+        font-size: 115%;
+    }
+    
+}
+
+@media (max-width: 550px) {
+    .rb-container ul.rb li {
+        margin-left: 90%;
+        margin-right: 10%
+    }
+
+    #features  {
+        padding-bottom: 50px;
+        padding-left: 70px;
+        padding-right: 70px;
+    }
+}
+
+@media (max-width: 480px) {
     .extras b{
         font-size: 130%;
     }
@@ -475,20 +542,19 @@ input::placeholder {
     
     .p{
         font-size: 105%;
-        font-style: italic;
     }
-    
-}
 
-@media (max-width: 550px) {
     .rb-container ul.rb li {
-        margin-left: 100%;
+        margin-left: 80%;
+        margin-right: 7%
     }
 
-    #features  {
-        padding-bottom: 50px;
-        padding-left: 70px;
-        padding-right: 70px;
+    .about-us-heading {
+        font-size: 2.6rem;
+    }
+
+    .carousel-item p {
+        font-size: 1.3rem;
     }
 }
 
@@ -501,6 +567,14 @@ input::placeholder {
 @media (max-width: 400px) {
     .rb-container ul.rb li {
     margin-left: 65%;
+    }
+
+    .about-us-heading {
+        font-size: 2.4rem;
+    }
+
+    .carousel-item p {
+        font-size: 1.2rem;
     }
 }
 
