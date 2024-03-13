@@ -319,6 +319,21 @@ input::placeholder {
 }
 
 @media (max-width: 1028px) {
+    .navbar {
+        padding: 0;
+        height: 70px;
+    }
+
+    .navbar-toggler {
+        margin-top: -15px;
+    }
+
+    #dsatm {
+        scale: 71%;
+        margin-left: 20px;
+        border-radius: 100px;
+    }
+
     #title {
         text-align: center;
     }
@@ -332,6 +347,7 @@ input::placeholder {
     .navbar-brand{
         max-width: 100%; 
         height: auto;
+        margin: 0;
     }
 
     .p {
@@ -390,12 +406,13 @@ input::placeholder {
   @media (max-width: 990px) {
     .navbar {
         padding: 0;
-        height: 80px;
+        height: 70px;
     }
 
     #dsatm {
-        scale: 82%;
-        margin-top: -7px;
+        scale: 71%;
+        margin-top: -10px;
+        margin-left: -6px;
         border-radius: 100px;
     }
 
