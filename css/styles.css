@@ -43,8 +43,23 @@ h1,h2,h3,h4,h5,h6 {
 #title .container-fluid{
     padding: 4% 10% 0%;
     text-align: left;
+    margin-bottom: -20px;
 }
 
+.extras b{
+    font-size: 200%;
+}
+
+.extras i{
+    font-size: 160%;
+}
+
+.p {
+    font-size: 120%;
+    line-height: 0;
+    font-style: italic;
+    padding-bottom: 15px;
+}
 
 /* Navigation bar */
 
@@ -286,8 +301,8 @@ input::placeholder {
 }
 
 .press-logo {
-    width: 20%;
-    margin: 50px 50px 30px;
+    width: 17%;
+    margin: 50px 50px 10px;
     border-radius: 20px;
 }
 
@@ -317,6 +332,10 @@ input::placeholder {
     .navbar-brand{
         max-width: 100%; 
         height: auto;
+    }
+
+    .p {
+        padding-bottom: 0;
     }
 }
 
@@ -404,6 +423,20 @@ input::placeholder {
         font-size: 1.5rem;
         padding: 10% 10% 2% 10%;
     }
+
+    .extras b{
+        font-size: 110%;
+    }
+
+    .extras i{
+        font-size: 100%;
+    }
+    
+    .p{
+        font-size: 80%;
+        font-style: italic;
+    }
+    
 }
 
 @media (max-width: 550px) {
