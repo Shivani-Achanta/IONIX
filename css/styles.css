@@ -368,6 +368,10 @@ input::placeholder {
         margin: 0%;
     }
 
+    #title .container-fluid{
+        margin-bottom: -50px;
+    }
+
     .big-heading {
         font-size: 200%;
     }
@@ -399,6 +403,11 @@ input::placeholder {
         font-size: 1.6rem;
     }
 
+    .fa {
+        scale: 80%;
+        margin-bottom: 0;
+    }
+
     #features  {
         padding-bottom: 50px;
     }
@@ -424,12 +433,16 @@ input::placeholder {
         padding: 10% 10% 2% 10%;
     }
 
+    .extras p {
+        margin-bottom: 10px;
+    }
+
     .extras b{
-        font-size: 110%;
+        font-size: 130%;
     }
 
     .extras i{
-        font-size: 100%;
+        font-size: 120%;
     }
     
     .p{
