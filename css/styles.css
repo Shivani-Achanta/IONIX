@@ -388,6 +388,17 @@ input::placeholder {
   }
 
   @media (max-width: 990px) {
+    .navbar {
+        padding: 0;
+        height: 80px;
+    }
+
+    #dsatm {
+        scale: 82%;
+        margin-top: -7px;
+        border-radius: 100px;
+    }
+
     .carousel-item p {
         font-size: 1.7rem;
         padding: 10% 10% 2% 10%;
@@ -446,7 +457,7 @@ input::placeholder {
     }
     
     .p{
-        font-size: 80%;
+        font-size: 105%;
         font-style: italic;
     }
     
