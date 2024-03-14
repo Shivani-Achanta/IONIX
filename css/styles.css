@@ -317,7 +317,7 @@ input::placeholder {
     font-optical-sizing: auto;
     font-weight: 100;
     font-style: normal;
-    font-size: 190%;
+    font-size: 4rem;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Anta&display=swap');
@@ -326,7 +326,7 @@ input::placeholder {
     font-family: 'Anta', cursive;
     font-weight: 400;
     font-style: normal;
-    font-size: 280%;
+    font-size: 5.5rem;
 }
 
 /* Footer */
@@ -338,7 +338,7 @@ input::placeholder {
 
 
 .foo:hover {
-    color: rgb(208, 120, 220);
+    color: rgb(134, 59, 144);
 }
 
 @media (max-width: 1028px) {
@@ -394,6 +394,14 @@ input::placeholder {
 
     #features p{
         font-size: 1.3rem;
+    }
+
+    #cta .big-heading {
+        font-size: 290%;
+    }
+
+    #cta h3 {
+        font-size: 210%;
     }
   }
 
@@ -465,6 +473,14 @@ input::placeholder {
         padding-bottom: 50px;
     }
 
+    #cta .big-heading {
+        font-size: 430%;
+    }
+
+    #cta h3 {
+        font-size: 230%;
+    }
+
     
 .foo {
     margin: 20px 10px;
@@ -478,11 +494,11 @@ input::placeholder {
     }
 
     #cta .big-heading {
-        font-size: 230%;
+        font-size: 300%;
     }
 
     #cta h3 {
-        font-size: 160%;
+        font-size: 210%;
     }
 
     .feature-box ul {
@@ -556,11 +572,27 @@ input::placeholder {
     .carousel-item p {
         font-size: 1.3rem;
     }
+
+    #cta .big-heading {
+        font-size: 280%;
+    }
+
+    #cta h3 {
+        font-size: 180%;
+    }
 }
 
 @media (max-width: 440px) {
     .rb-container ul.rb li {
         margin-left: 75%;
+    }
+
+    #cta .big-heading {
+        font-size: 270%;
+    }
+
+    #cta h3 {
+        font-size: 170%;
     }
 }
 
@@ -576,6 +608,14 @@ input::placeholder {
     .carousel-item p {
         font-size: 1.2rem;
     }
+
+    #cta .big-heading {
+        font-size: 250%;
+    }
+
+    #cta h3 {
+        font-size: 150%;
+    }
 }
 
 @media (max-width: 350px) {
@@ -589,5 +629,13 @@ input::placeholder {
 
     .feature-title {
         font-size: 1.5rem;
+    }
+
+    #cta .big-heading {
+        font-size: 200%;
+    }
+
+    #cta h3 {
+        font-size: 130%;
     }
 }
