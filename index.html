@@ -70,6 +70,24 @@
                     aria-expanded="false" aria-label="Toggle navigation" style="margin-right: 15px;">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                <script>
+                    document.addEventListener("click", function(event) {
+                        var navbar = document.querySelector(".navbar-collapse");
+                        var targetElement = event.target; // clicked element
+            
+                        do {
+                            if (targetElement == navbar) {
+                                // Click inside navbar, do nothing
+                                return;
+                            }
+                            // Move up the DOM
+                            targetElement = targetElement.parentNode;
+                        } while (targetElement);
+            
+                        // Click outside navbar, collapse it
+                        navbar.classList.remove("show");
+                    });
+                </script>
             </nav>
         </div>
 
@@ -275,7 +293,6 @@
 </html>
 
 <!-- TO DO LIST:
-    Make the navbar stick to the top of the screen.
     Location and date color change.
     Timer color change
     Timeline color and font
