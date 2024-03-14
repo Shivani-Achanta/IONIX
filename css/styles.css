@@ -41,14 +41,14 @@ h1,h2,h3,h4,h5,h6 {
 /* Title Section */
 
 #title .container-fluid{
-    padding: 4% 10% 0%;
+    padding: 2% 10% 0%;
     text-align: left;
     margin-bottom: -20px;
-    align-items: end;
 }
 
 .extras b{
     font-size: 265%;
+    padding-top: 1200px;
 }
 
 .extras i{
@@ -66,6 +66,11 @@ h1,h2,h3,h4,h5,h6 {
 
 .navbar {
     margin: 0 0 4.5rem 0;
+    display: flex;
+    position: fixed;
+    width: 80%;
+    z-index: 1;
+    box-shadow: 0px 0px 0px 0.4px #a5a4a5;
 }
 
 .navbar-brand {
@@ -183,6 +188,8 @@ h1,h2,h3,h4,h5,h6 {
     margin: 0 auto;
     text-align: center;
     box-shadow: 4px 4px 25px 6px;
+    font-family: 'Anta';
+    font-weight: 100;
   }
 
   li {
@@ -207,7 +214,7 @@ h1,h2,h3,h4,h5,h6 {
   }
 
   .about-us-heading {
-    font-family: 'Obitron';
+    font-family: 'Anta';
     font-size: 4rem;
     padding-top: 5%;
     margin-bottom: -10%;
@@ -307,9 +314,9 @@ input::placeholder {
 }
 
 .press-logo {
-    width: 17%;
+    width: 16.5%;
     margin: 40px 40px 20px;
-    border-radius: 20px;
+    border-radius: 19px;
 }
 
 /* Call to action */
@@ -427,6 +434,10 @@ input::placeholder {
   }
 
   @media (max-width: 990px) {
+    .navbar {
+        box-shadow: 0px 0px 0.4px 0.1px #bebcbe;
+    }
+
     #dsatm {
         scale: 71%;
         margin-top: -6px;
