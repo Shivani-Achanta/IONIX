@@ -314,7 +314,7 @@ input::placeholder {
 }
 
 .press-logo {
-    width: 16.5%;
+    width: 20%;
     margin: 40px 40px 20px;
     border-radius: 19px;
 }
@@ -434,10 +434,6 @@ input::placeholder {
   }
 
   @media (max-width: 990px) {
-    .navbar {
-        box-shadow: 0px 0px 0.4px 0.1px #bebcbe;
-    }
-
     #dsatm {
         scale: 71%;
         margin-top: -6px;
