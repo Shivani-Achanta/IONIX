@@ -412,7 +412,7 @@ input::placeholder {
     }
 
     .big-heading {
-        font-size: 200%;
+        font-size: 180%;
     }
 
     .feature-box ul {
@@ -490,12 +490,8 @@ input::placeholder {
         width: 80%;
     }
 
-    #cta .big-heading {
-        font-size: 300%;
-    }
-
-    #cta h3 {
-        font-size: 210%;
+    .big-heading {
+        font-size: 160%;
     }
 
     .feature-box ul {
@@ -528,10 +524,25 @@ input::placeholder {
     .p{
         font-size: 115%;
     }
+
+    #cta .big-heading {
+        font-size: 300%;
+    }
+
+    #cta h3 {
+        font-size: 210%;
+    }
     
 }
 
 @media (max-width: 550px) {
+    .big-heading {
+        font-size: 150%;
+    }
+    .btn {
+        padding-bottom: 10px;
+    }
+
     .rb-container ul.rb li {
         margin-left: 90%;
         margin-right: 10%
@@ -545,6 +556,10 @@ input::placeholder {
 }
 
 @media (max-width: 480px) {
+    .big-heading {
+        font-size: 140%;
+    }
+
     .extras b{
         font-size: 130%;
     }
@@ -580,6 +595,10 @@ input::placeholder {
 }
 
 @media (max-width: 440px) {
+    .big-heading {
+        font-size: 140%;
+    }
+
     .rb-container ul.rb li {
         margin-left: 75%;
     }
@@ -616,6 +635,10 @@ input::placeholder {
 }
 
 @media (max-width: 350px) {
+    .big-heading {
+        font-size: 130%;
+    }
+
     .rb-container ul.rb li {
         margin-left: 50%;
     }
