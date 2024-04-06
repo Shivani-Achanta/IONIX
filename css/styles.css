@@ -334,9 +334,10 @@ input::placeholder {
     font-size: 3.3rem;
 }
 
-#cta h3 .before-heading {
-    font-size: 2.65rem;
+#cta .before-heading {
+    font-size: 2.35rem;
     margin-top: -20px;
+    padding-bottom: 10px;
 }
 
 
@@ -382,6 +383,10 @@ input::placeholder {
         font-size: 135%;
     }
 
+    #cta .before-heading {
+        font-size: 180%;
+    }
+
     .navbar-brand{
         max-width: 100%; 
         height: auto;
@@ -424,6 +429,10 @@ input::placeholder {
 
     #cta .big-heading {
         font-size: 290%;
+    }
+
+    #cta .before-heading {
+        font-size: 150%;
     }
 
     #cta h3 {
@@ -584,6 +593,10 @@ input::placeholder {
         padding-left: 70px;
         padding-right: 70px;
     }
+
+    #cta .before-heading {
+        font-size: 130%;
+    }
 }
 
 @media (max-width: 480px) {
@@ -626,6 +639,10 @@ input::placeholder {
         font-size: 280%;
     }
 
+    #cta .before-heading {
+        font-size: 120%;
+    }
+
     #cta h3 {
         font-size: 150%;
     }
@@ -642,6 +659,10 @@ input::placeholder {
 
     #cta .big-heading {
         font-size: 270%;
+    }
+
+    #cta .before-heading {
+        font-size: 113%;
     }
 
     #cta h3 {
@@ -670,6 +691,10 @@ input::placeholder {
 
     #cta .big-heading {
         font-size: 250%;
+    }
+
+    #cta .before-heading {
+        font-size: 105%;
     }
 
     #cta h3 {
