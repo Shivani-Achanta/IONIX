@@ -17,7 +17,6 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Sections */
 .colored-section{
-    background-color: black;
     color: white;
 }
 
@@ -110,7 +109,7 @@ h1,h2,h3,h4,h5,h6 {
 /* Download Buttons */
 
 .download-button {
-    margin: 3% 3% 0% 0;
+    margin: 3% 3% 0% 0%;
 }
 
 /* Glow */
@@ -133,10 +132,12 @@ h1,h2,h3,h4,h5,h6 {
 
 /* Title image */
 .title-img {
-    margin-top: 4%;
+    margin-top: 5%;
     width: 37%;
     position: absolute;
     right: 8%;
+    box-shadow: 4px 4px 25px 6px rgba(245, 169, 255, 0.684);
+    border-radius: 25px;
 }
 
 /* Features */
@@ -319,18 +320,29 @@ input::placeholder {
     border-radius: 19px;
 }
 
+#press p {
+    font-size: 165%;
+    padding-top: 1%;
+    margin-bottom: -20px;
+}
+
 /* Call to action */
 
 #cta h3 {
     font-family: 'Kalam', cursive;
-    font-weight: 430;
-    font-size: 4rem;
+    font-weight: 400; 
+    font-size: 3.3rem;
+}
+
+#cta h3 .before-heading {
+    font-size: 2.65rem;
+    margin-top: -20px;
 }
 
 
 #cta .big-heading {
     font-family: 'Permanent Marker', cursive;
-    font-size: 6.5rem;
+    font-size: 6.3rem;
 }
 
 /* Footer */
@@ -364,6 +376,10 @@ input::placeholder {
         width: 70%;
         position: static;
         transform: rotate(0deg);
+    }
+
+    #press p {
+        font-size: 135%;
     }
 
     .navbar-brand{
@@ -400,6 +416,12 @@ input::placeholder {
         font-size: 1.3rem;
     }
 
+    #press p {
+        font-size: 125%;
+        padding-top: 10px;
+        margin-bottom: -20px;
+    }
+
     #cta .big-heading {
         font-size: 290%;
     }
@@ -412,6 +434,8 @@ input::placeholder {
   @media (max-width: 1300px) {
     .title-img {
         margin: 0%;
+        margin-bottom: 0%;
+        margin-top: 4%;
     }
 
     #title .container-fluid{
@@ -482,7 +506,7 @@ input::placeholder {
     }
 
     #cta h3 {
-        font-size: 230%;
+        font-size: 200%;
     }
 
     
@@ -537,7 +561,7 @@ input::placeholder {
     }
 
     #cta h3 {
-        font-size: 210%;
+        font-size: 180%;
     }
     
 }
@@ -592,12 +616,18 @@ input::placeholder {
         font-size: 1.3rem;
     }
 
+    #press p {
+        font-size: 115%;
+        padding-top: 10px;
+        margin-bottom: -30px;
+    }
+
     #cta .big-heading {
         font-size: 280%;
     }
 
     #cta h3 {
-        font-size: 180%;
+        font-size: 150%;
     }
 }
 
@@ -615,7 +645,7 @@ input::placeholder {
     }
 
     #cta h3 {
-        font-size: 170%;
+        font-size: 150%;
     }
 }
 
@@ -632,12 +662,18 @@ input::placeholder {
         font-size: 1.2rem;
     }
 
+    #press p {
+        font-size: 105%;
+        padding-top: 10px;
+        margin-bottom: -30px;
+    }
+
     #cta .big-heading {
         font-size: 250%;
     }
 
     #cta h3 {
-        font-size: 150%;
+        font-size: 120%;
     }
 }
 
@@ -663,6 +699,6 @@ input::placeholder {
     }
 
     #cta h3 {
-        font-size: 130%;
+        font-size: 110%;
     }
 }

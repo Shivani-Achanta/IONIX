@@ -4,7 +4,7 @@
           hour = minute * 60,
           day = hour * 24;
   
-    const countdownDate = new Date("April 26, 2024 00:00:00").getTime();
+    const countdownDate = new Date("May 8, 2024 00:00:00").getTime();
     
     const x = setInterval(function() {    
       const now = new Date().getTime(),

@@ -37,8 +37,15 @@
 </head>
 
 <body>
+    <!--Redirects to external browser if opened in Instagram-->
+    <script>
+        if(navigator.userAgent.includes("Instagram")){
+            window.location.href = "https://mywebsite.com/DummyBytes";
+        }
+     </script>
+
     <!-- Home -->
-    <section id="title" class="colored-section">
+    <section id="title" class="colored-section" style="background-color: black;">
 
         <!-- Navbar -->
         <div class="container-fluid">
@@ -94,40 +101,47 @@
         <!-- Title -->
         <div class="row custom-margin">
             <div class="extras">
-                <p style="font-family: 'Kanit', serif;"><br><br><br><br><br><br><b>Dayanada Sagar Academy of Technology and Management</b>
+                <p style="font-family: 'Kanit', serif;"><br><br><br><br><br><br><b><br>Dayanada Sagar Academy of Technology and Management</b>
                 <br><i>Department of EEE</i></p>
                 <p class="p">presents</p>
             </div>
             <div class="col-lg-6">
 
-                <div class="col-lg-6">
+                <div class="col-lg-6"><br>
                     <img src="images/Ionix.jpg" alt="IONIX logo" class="title-img">
                 </div>
-                <h5 class="big-heading">A 24 hour hackathon on<br>● IOT and Embedded<br>●
+                <h5 class="big-heading"><br>A 24 hour hackathon on<br>● IOT and Embedded<br>●
                     Robotics&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>●
                     Green Energy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br></h5>
                 <button type="button" class="btn btn-outline-light btn-lg download-button" style="width: 90%;"
-                    onclick="window.open('https://drive.google.com/file/d/1--ntaRDTh49hvwWD3XSUA4EW8B2dDKMS/view?usp=drivesdk', '_blank')"><b>Rules
+                    onclick="window.open('https://drive.google.com/file/d/1D_lZC5jfoJk4rxehgWBGqttUu9A7WyfL/view', '_blank')"><b>Rules
                         and Regulations</b></button>
                 <button type="button" class="btn btn-outline-light btn-lg download-button glow" style="width: 90%;"
                     onclick="window.open('https://docs.google.com/forms/d/e/1FAIpQLSdJ-xO2398zOohG_eQ22m_hVLFOQzKqP6GFzu_-hCsAQ9MGeQ/viewform', '_blank')"><b>Register
                         Now!</b></button>
-            </div>
-
+            </div>        
+            <!--<section class="prize">
+                <img src="images/Cash Prize.jpg" alt="Cash Prize" class="prize-img">
+            </section>-->
+        </section>
         </div>
-    </section>
 
 
     <!-- Features -->
     <section id="features" class="container-fluid white-section">
         <div class="row">
-            <div class="feature-box col-lg-6">
-                <i class="icon fa fa-map-marker" style="font-size:3.5em"></i>
+            <div class="feature-box col-lg-4">
+                <i class="icon fa fa-map-marker" style="font-size:3.5em; margin-top: -5px;"></i>
                 <h3 class="feature-title">Location</h3>
                 <p><a href="https://www.google.com/maps/dir//Kanakapura+Rd,+UDAYAPURA,+Badamanavarathekaval,+Karnataka+560082/@12.8251455,77.4316282,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x3bae41057dd66abf:0xfda823a3ca1775ea!2m2!1d77.5140301!2d12.8251583?entry=ttu"
                         style="text-decoration: none;"><u>Dayananda Sagar Academy of Technology and Management</u></a></p>
             </div>
-            <div class="feature-box col-lg-6">
+            <div class="feature-box col-lg-4">
+                <i class="icon fa fa-trophy" style="font-size:4.2em"></i>
+                <p class="feature-title" style="font-size: 1.6em; margin-top: -20px;">Cash Prize</p>
+                <p style="font-size: 1.3em;">Rs. 20,000</p>
+            </div>
+            <div class="feature-box col-lg-4">
                 <i class="icon fa fa-calendar" style="font-size:3.5em"></i>
                 <h3 class="feature-title">
                     Date
@@ -149,7 +163,7 @@
 
 
     <!--About Us-->
-    <section id="about" class="colored-section">
+    <section id="about" class="colored-section" style="background-image: url(images/Background.jpg); background-repeat: round;">
         <div id="carouselExampleIndicators" class="carousel slide">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
@@ -224,7 +238,7 @@
                     <ul class="rb">
                         <li class="rb-item" ng-repeat="itembx">
                             <div class="timestamp">
-                                1<sup>th</sup> May 2024<br>
+                                1<sup>st</sup> May 2024<br>
                             </div>
                             <div class="item-title">Last date for IONIX registration</div>
 
@@ -264,8 +278,8 @@
 
     <!-- Press -->
 
-    <section id="press" class="colored-section">
-        <p style="font-size: 165%; padding-top: 1%; margin-bottom: -20px;">In association with</p>
+    <section id="press" class="colored-section" style="background-color: black;">
+        <p>Conducted under</p>
         <!-- <img class="press-logo" src=""> -->
         <img class="press-logo" src="images/PES.jpg" alt="IEEE PES-logo">
     </section>
@@ -273,6 +287,8 @@
     <!-- Call To Action -->
 
     <section id="cta" class="container-fluid white-section">
+        <h3 class="before-heading">Come join us for an unforgettable experience of innovation, collaboration, and exploration, and <b>receive assured merchandise for all participants</b>.
+            <br><br></h3>
         <h1 class="big-heading">GET READY!!<br>
         </h1>
         <h3>....to rewire your brains</h3>
@@ -280,7 +296,7 @@
 
     <!-- Footer -->
 
-    <footer id="footer" class="container-fluid colored-section">
+    <footer id="footer" class="container-fluid colored-section" style="background-color: black;">
         <i><a class="fa fa-instagram foo" aria-label="Connect to the Ionix team through Instagram" style="font-size:2.0em;text-decoration: none; scale: 1.2;"
                 href="https://www.instagram.com/ionix.dsatm/" target="_blank"></a></i>
         <i><a href="mailto:ionix@dsatm.edu.in" class="fa fa-envelope foo" aria-label="Connect to the Ionix team through email"
